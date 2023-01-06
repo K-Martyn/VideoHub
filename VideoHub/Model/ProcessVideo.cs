@@ -1,6 +1,3 @@
 namespace VideoHub.Model;
 
-public class ProcessVideo
-{
-    
-}
+public record ProcessVideo(string Path, string Quality);
